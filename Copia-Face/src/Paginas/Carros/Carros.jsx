@@ -6,9 +6,10 @@ import Gol from "../../img/img-carros/carros/gol/frente.jpeg";
 import Uno from "../../img/img-carros/carros/FiatuNO/frente.jpeg";
 import Corolla from "../../img/PrincipalPg/frente-corolla.jpg";
 import Hb20 from "../../img/PrincipalPg/frente-hb20.jpeg";
-import Kwid from "../../img/PrincipalPg/frente-Kwid.jpeg";
+import { useNavigate } from "react-router-dom";
 import Versa from "../../img/PrincipalPg/frente-Versa.jpeg";
 function Carros() {
+  const navigate = useNavigate();
   const Carros = [
     {
       id: 1,
@@ -83,14 +84,6 @@ function Carros() {
       Cor: "Prata",
       Preco: "R$ 60.000,00",
     },
-    {
-      id: 10,
-      imagem: Kwid,
-      Marca: "Renault Kwid",
-      Ano: 2018,
-      Cor: "Branco",
-      Preco: "R$ 40.000,00",
-    },
   ];
 
   return (
@@ -112,8 +105,8 @@ function Carros() {
               <p className="text-white mt-2">Marca: {carro.Marca}</p>
               <p className="text-white ">Ano: {carro.Ano}</p>
               <p className="text-white pb-2">Cor: {carro.Cor}</p>
-              <button className="bg-white w-50 text-black rounded-3xl hover:bg-black hover:text-white p-1">
-                Saiba Mais
+              <button className="bg-white w-50 text-black rounded-3xl hover:bg-black hover:text-white p-1" onClick={() => navigate(`/carros/${carro.id}`)}>
+                {carro.Preco}
               </button>
             </div>
           ))}

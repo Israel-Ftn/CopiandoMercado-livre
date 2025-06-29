@@ -1,0 +1,86 @@
+
+ [
+    {
+      "id": 1,
+      "marca": "Mercedes-Benz classe A",
+      "modelo": "Classe A",
+      "ano": 2004,
+      "cor": "Preto",
+      "Descricao": "Mercedes-Benz Classe A é um carro compacto de luxo, conhecido por seu design elegante e tecnologia avançada.",
+      "preco": "R$ 25.000,00"
+    },
+    {
+      "id": 2,
+      "marca": "Civic",
+      "modelo": "Honda Civic",
+      "ano": 2010,
+      "cor": "Prata",
+      "Descricao": "Honda Civic é um sedã médio confiável e eficiente, com bom desempenho e conforto.",
+      "preco": "R$ 45.000,00"
+    },
+    {
+      "id": 3,
+      "marca": "Onix",
+      "modelo": "Chevrolet Onix",
+      "ano": 2018,
+      "cor": "Branco",
+      "Descricao": "Chevrolet Onix é um hatch compacto popular, conhecido por sua economia de combustível e tecnologia moderna.",
+      "preco": "R$ 55.000,00"
+    },
+
+    {
+      "id": 4,
+      "marca": "Ka",
+      "modelo": "Ford Ka",
+      "ano": 2015,
+      "cor": "Vermelho",
+      "Descricao": "Ford Ka é um carro compacto ágil e econômico, ideal para o trânsito urbano.",
+      "preco": "R$ 30.000,00"
+    },
+    {
+      "id": 5,
+      "marca": "Gol",
+      "modelo": "Volkswagen Gol",
+      "ano": 2012,
+      "cor": "Branco",
+      "Descricao": "Volkswagen Gol é um dos carros mais vendidos do Brasil, conhecido por sua robustez e confiabilidade.",
+      "preco": "R$ 40.000,00"
+    },
+    {
+      "id": 6,
+      "marca": "Uno",
+      "modelo": "Fiat Uno",
+      "ano": 2010,
+      "cor": "Cinza",
+      "Descricao": "Fiat Uno é um carro compacto prático e econômico, ideal para o dia a dia.",
+      "preco": "R$ 35.000,00"
+    },
+    {
+      "id": 7,
+      "marca": "Toyota Corolla",
+      "modelo": "Corolla",
+      "ano": 2020,
+      "cor": "Preto",
+      "Descricao": "Toyota Corolla é um sedã médio renomado por sua confiabilidade, conforto e eficiência.",
+      "preco": "R$ 90.000,00"
+    },
+    {
+      "id": 8,
+      "marca": "Hyundai HB20",
+      "modelo": "HB20",
+      "ano": 2019,
+      "cor": "Branco",
+      "Descricao": "Hyundai HB20 é um hatch compacto moderno, com design atraente e bom custo-benefício.",
+      "preco": "R$ 50.000,00"
+    },
+    {
+      "id": 9,
+      "marca": "Nissan Versa",
+      "modelo": "Versa",
+      "ano": 2021,
+      "cor": "Prata",
+      "Descricao": "Nissan Versa é um sedã compacto espaçoso e confortável, ideal para famílias.",
+      "preco": "R$ 60.000,00"
+    }
+  ]
+
